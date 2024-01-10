@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/MainCss.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <meta charset="utf-8">
+    <title>SPORTCLUB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+    <body>
+        <div id='preloader'>
+            <img src="img/Логотип.png"  class="wow animate__animated animate__pulse"  alt="preloader">
+        </div>
+        <header>
+            <div class="gympicture">
+                <div class="logo">
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li><a href="html/pageTwo.html" class="page">Купить абонемент</a></li>
+                                <li><a href="html/pageThree.html" class="page">Что у нас есть?</a></li>
+                                <li><a href="html/pageFour.html" class="page">Секции</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="SportTxt">
+                    <h1>НАЧНИ СВОЙ ДЕНЬ СО СПОРТА</h1>
+                    <p>Спортивный клуб ФГБОУ ВО им. К.Ю. Кузнецова</p>
+                    <div class="sale">
+                        <p>Студентам скидка 50%</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div class="AboutClub" id="about">
+                <div class="Name">
+                     <h1 class="wow animate__animated animate__backInRight" >SPORTCLUB</h1>
+                     <p class="wow animate__animated animate__backInRight">Фитнес-клуб для студентов</p>
+                
+                     <div class="Description wow animate__animated animate__backInRight">
+                     <p>– это фитнес-центр нового поколения. Здесь есть все,о чем могут мечтать активные студенты! Развлекательные и оздоровительные программы комплекса – это возможность мыслить по-новому, изменить свой взгляд и подход к решению нестандартных вопросов.</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section>
+             <div class="advantages">
+                <div class="FavSp">
+                    <p class="slogan wow animate__animated animate__backInDown">ТВОЙ ЛЮБИМЫЙ СПОРТИВНЫЙ КЛУБ</p>
+                    <div class="images wow animate__animated animate__backInDown">
+                        <img src="img/часы.png">
+                        <img src="img/скидка.png">
+                        <img src="img/звезда.png">
+                        <div class="best">
+                            <p class="wow animate__animated animate__backInDown">РАБОТАЕТ КРУГЛОСУТОЧНО</p>
+                            <p class="wow animate__animated animate__backInDown">СКИДКИ СТУДЕНТАМ </p>
+                            <p class="wow animate__animated animate__backInDown">ЛУЧШЕЕ ОБОРУДОВАНИЕ</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section id='req' class="req">
+            <div class="order-wrapper">
+                <div class="order-form">
+                    <h2 >Оставить заявку</h2>
+                    <label for="firstname_field">Имя</label>
+                    <input type="text" id="firstname_field"> 
+                    <label for="lastname_field">Фамилия</label>
+                    <input type="text" id="lastname_field">
+                    <label for="phone_field">Телефон</label>
+                    <input type="text" class="form__item" id="phone_field">
+                    <button id='request' class="request">Отправить</button>
+                </div>
+                <div class="order-alert" id='order'>
+                    <p>
+                        <strong id='Fname'> </strong>  <strong id='Lname'> </strong><br>
+                        Наши специалисты уже получили Вашу заявку и свяжутся с Вами в ближайшее время по телефону: <strong id='number'><nobr></nobr></strong><br>
+                        Спасибо за обращение! 
+                    </p>
+                </div>      	  
+            </div>
+        </section>
+        <section>
+            <div class="footer">
+                <div class="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abf1e18111b1592b2829b26ffede3a5258baadf44f4f574ce24d4275264f70e0c&amp;width=990&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <div class="RightBlock">
+                        <p class="nameofclub">SPORTCLUB</p>
+                        <p>Фитнес с бассейном</p>
+                        <div class="ContactBlock">
+                             <p class="contacts">+7(999) 99 99</p>
+                             <hr>
+                             <p class="contacts">sportclub@mail.ru</p>
+                             <p class="work">Работаем круглосуточно</p>
+                        </div>
+                    </div>
+                    <div class="BottomBlock">
+                        <div class="SocialNetwork">
+                            <img src="img/ютуб.png">
+                            <img src="img/телеграм.png">
+                            <img src="img/вк.png">
+                        </div>
+                        <div class="info">
+                            <p><a href="html/pageTwo.html" >Купить абонемент</a></p>
+                            <p><a href="html/pageThree.html" >Что у нас есть?</a></p>
+                            <p><a href="html/pageFour.html" >Секции</a></p>
+                        </div>
+                        <div class="clubs">
+                            <p>Блог</p>
+                            <p>Заморозить абонемент</p>
+                            <p>Клубы</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <a href="#top" id='up' class='up'><img src="img/наверх.png" class="up_pic"></a>
+        <script src="js/preloader.js"></script>
+        <script src="js/up_btn.js"></script>
+    </body>
+</html>

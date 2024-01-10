@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: #0D0B0A no-repeat center center;
+}
+.visible {
+  text-align: center;
+visibility: visible;
+opacity: 1;
+transition: opacity 2s linear;
+}
+
+.hidden {
+  text-align: center;
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 2s linear;
+}
+body {
+    width: 1440px;
+    height: 2200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gympicture{
+    background-image: url("../img/спортзал1.jpg");
+    position: relative;
+    width: 1440px;
+    height: 170px;
+    filter: brightness(70%);
+    margin-top: 0;
+}
+.logo{
+    background-image: url(../img/Логотип.png);
+    position: absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 103px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.gympicture .logo .menu{
+    position: absolute;
+    display: inline-block;
+    height: 103px;
+    width: 1300px;
+    margin-left: 350px;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    margin-top: 31px;
+    margin-bottom: 35px;
+}
+nav ul {
+    margin-right: 278px;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+nav .page {
+    text-decoration: none;
+    margin-right: 47px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight:300;
+    padding-right: 100px;
+}
+.footer{
+    position: relative;
+    height: 560px;
+    background-color: #96774D;
+}
+.footer .map .RightBlock{
+    height: 400px;
+    position: absolute;
+    margin-left: 1064px;
+    margin-top: -374px;
+}
+.footer .map .RightBlock .nameofclub{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+}
+.footer .map .RightBlock p{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 400;
+}
+.footer .map .RightBlock .contacts{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer .map .RightBlock hr{
+    border: none;
+	border-top: 1px solid #FFFFFF;
+    width: 280px;
+    margin-top: 5px;
+}
+.ContactBlock{
+    margin-top: 50px;
+}
+.footer .map .RightBlock{
+    position: relative;
+}
+.footer .map .RightBlock .ContactBlock .work{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer .map .BottomBlock .SocialNetwork{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.footer .map .BottomBlock .SocialNetwork img{
+    width: 60px;
+    height: 60px;
+}
+.footer .map .BottomBlock .info{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+.info a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight:500;
+}
+.footer .map .BottomBlock .clubs{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 1040px;
+}
+.footer .map .BottomBlock .clubs p{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.up{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    bottom: 100px;
+    right: 60px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 999;
+}
+.up_pic{
+    width: 100px;
+    height: 100px;
+}
